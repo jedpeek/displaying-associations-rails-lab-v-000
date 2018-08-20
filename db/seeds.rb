@@ -8,5 +8,6 @@
 
 Artist.destroy_all
 Song.destroy_all
-artist = Artist.create(name: "Daft Punk")
+daft = Artist.create(name: "Daft Punk")
 grid = artist.songs.create(title: "The Grid")
+voyage = daft.songs.create(title: "The Grid")
