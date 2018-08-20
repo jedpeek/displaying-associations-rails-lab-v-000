@@ -13,5 +13,4 @@ grid = daft.songs.create(title: "The Grid")
 voyage = daft.songs.create(title: "The Grid")
 
 rihanna = Artist.create(name: "Rihanna")
-
-
+work = rihanna.songs.create(title: "Work")
